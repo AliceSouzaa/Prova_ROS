@@ -1,2 +1,0 @@
-float64 nivel_oxigenio
-float64 temperatura
