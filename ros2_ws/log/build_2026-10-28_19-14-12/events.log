@@ -1,0 +1,1602 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (robo_interfaces) JobQueued: {'identifier': 'robo_interfaces', 'dependencies': OrderedDict()}
+[0.001380] (robo_explorador) JobQueued: {'identifier': 'robo_explorador', 'dependencies': OrderedDict({'robo_interfaces': '/home/aluno/ros2_ws/install/robo_interfaces'})}
+[0.001994] (robo_interfaces) JobStarted: {'identifier': 'robo_interfaces'}
+[0.092537] (robo_interfaces) JobProgress: {'identifier': 'robo_interfaces', 'progress': 'cmake'}
+[0.098623] (-) TimerEvent: {}
+[0.203873] (-) TimerEvent: {}
+[0.229318] (robo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/aluno/ros2_ws/src/robo_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/aluno/ros2_ws/install/robo_interfaces'], 'cwd': '/home/aluno/ros2_ws/build/robo_interfaces', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aluno', 'OLDPWD': '/home/aluno/ros2_ws/src/robo_explorador/robo_explorador', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aluno/ros2_ws/build/robo_interfaces', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.304125] (-) TimerEvent: {}
+[0.406169] (-) TimerEvent: {}
+[0.513207] (-) TimerEvent: {}
+[0.621648] (-) TimerEvent: {}
+[0.723198] (-) TimerEvent: {}
+[0.825006] (-) TimerEvent: {}
+[0.927629] (-) TimerEvent: {}
+[1.029390] (-) TimerEvent: {}
+[1.056101] (robo_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.129701] (-) TimerEvent: {}
+[1.232094] (-) TimerEvent: {}
+[1.334025] (-) TimerEvent: {}
+[1.437682] (-) TimerEvent: {}
+[1.475870] (robo_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.537781] (-) TimerEvent: {}
+[1.614167] (robo_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.637957] (-) TimerEvent: {}
+[1.739775] (-) TimerEvent: {}
+[1.842242] (-) TimerEvent: {}
+[1.949447] (-) TimerEvent: {}
+[2.052144] (-) TimerEvent: {}
+[2.153891] (-) TimerEvent: {}
+[2.255727] (-) TimerEvent: {}
+[2.358001] (-) TimerEvent: {}
+[2.460052] (-) TimerEvent: {}
+[2.562637] (-) TimerEvent: {}
+[2.665216] (-) TimerEvent: {}
+[2.767596] (-) TimerEvent: {}
+[2.869937] (-) TimerEvent: {}
+[2.973045] (-) TimerEvent: {}
+[3.075003] (-) TimerEvent: {}
+[3.176350] (-) TimerEvent: {}
+[3.279235] (-) TimerEvent: {}
+[3.381242] (-) TimerEvent: {}
+[3.472896] (robo_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.481438] (-) TimerEvent: {}
+[3.583388] (-) TimerEvent: {}
+[3.686606] (-) TimerEvent: {}
+[3.735649] (robo_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.740882] (robo_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.746040] (robo_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.786826] (-) TimerEvent: {}
+[3.888960] (-) TimerEvent: {}
+[3.903502] (robo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.989186] (-) TimerEvent: {}
+[4.091983] (-) TimerEvent: {}
+[4.195517] (-) TimerEvent: {}
+[4.297462] (-) TimerEvent: {}
+[4.402269] (-) TimerEvent: {}
+[4.504416] (-) TimerEvent: {}
+[4.608826] (-) TimerEvent: {}
+[4.713560] (-) TimerEvent: {}
+[4.817824] (-) TimerEvent: {}
+[4.920265] (-) TimerEvent: {}
+[5.028329] (-) TimerEvent: {}
+[5.134395] (-) TimerEvent: {}
+[5.236677] (-) TimerEvent: {}
+[5.338946] (-) TimerEvent: {}
+[5.441418] (-) TimerEvent: {}
+[5.542628] (-) TimerEvent: {}
+[5.644326] (-) TimerEvent: {}
+[5.745655] (-) TimerEvent: {}
+[5.850203] (-) TimerEvent: {}
+[5.951878] (-) TimerEvent: {}
+[6.059407] (-) TimerEvent: {}
+[6.089848] (robo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.159523] (-) TimerEvent: {}
+[6.164727] (robo_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.168966] (robo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.170841] (robo_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.259691] (-) TimerEvent: {}
+[6.381311] (-) TimerEvent: {}
+[6.483734] (-) TimerEvent: {}
+[6.520911] (robo_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.583973] (-) TimerEvent: {}
+[6.686977] (-) TimerEvent: {}
+[6.788232] (-) TimerEvent: {}
+[6.889831] (-) TimerEvent: {}
+[6.909462] (robo_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.990028] (-) TimerEvent: {}
+[7.097024] (-) TimerEvent: {}
+[7.198712] (-) TimerEvent: {}
+[7.301069] (-) TimerEvent: {}
+[7.403200] (-) TimerEvent: {}
+[7.505281] (-) TimerEvent: {}
+[7.607192] (-) TimerEvent: {}
+[7.708828] (-) TimerEvent: {}
+[7.810076] (-) TimerEvent: {}
+[7.910972] (-) TimerEvent: {}
+[7.931780] (robo_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[8.011284] (-) TimerEvent: {}
+[8.092636] (robo_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.111426] (-) TimerEvent: {}
+[8.213578] (-) TimerEvent: {}
+[8.324515] (-) TimerEvent: {}
+[8.426406] (-) TimerEvent: {}
+[8.527778] (-) TimerEvent: {}
+[8.629363] (-) TimerEvent: {}
+[8.731860] (-) TimerEvent: {}
+[8.768528] (robo_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.831987] (-) TimerEvent: {}
+[8.933018] (-) TimerEvent: {}
+[9.034063] (-) TimerEvent: {}
+[9.088060] (robo_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[9.134203] (-) TimerEvent: {}
+[9.235116] (-) TimerEvent: {}
+[9.335997] (-) TimerEvent: {}
+[9.439709] (-) TimerEvent: {}
+[9.541099] (-) TimerEvent: {}
+[9.642232] (-) TimerEvent: {}
+[9.742953] (-) TimerEvent: {}
+[9.843924] (-) TimerEvent: {}
+[9.949176] (-) TimerEvent: {}
+[10.057863] (-) TimerEvent: {}
+[10.160912] (-) TimerEvent: {}
+[10.262654] (-) TimerEvent: {}
+[10.365197] (-) TimerEvent: {}
+[10.468505] (-) TimerEvent: {}
+[10.574944] (-) TimerEvent: {}
+[10.677118] (-) TimerEvent: {}
+[10.778681] (-) TimerEvent: {}
+[10.879610] (-) TimerEvent: {}
+[10.981637] (-) TimerEvent: {}
+[11.092650] (-) TimerEvent: {}
+[11.194660] (-) TimerEvent: {}
+[11.296067] (-) TimerEvent: {}
+[11.397276] (-) TimerEvent: {}
+[11.500484] (-) TimerEvent: {}
+[11.618011] (-) TimerEvent: {}
+[11.721153] (-) TimerEvent: {}
+[11.822995] (-) TimerEvent: {}
+[11.929827] (-) TimerEvent: {}
+[11.982889] (robo_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[12.030026] (-) TimerEvent: {}
+[12.132184] (-) TimerEvent: {}
+[12.233913] (-) TimerEvent: {}
+[12.335546] (-) TimerEvent: {}
+[12.444224] (-) TimerEvent: {}
+[12.546035] (-) TimerEvent: {}
+[12.646985] (-) TimerEvent: {}
+[12.749025] (-) TimerEvent: {}
+[12.852617] (-) TimerEvent: {}
+[12.954160] (-) TimerEvent: {}
+[13.057274] (-) TimerEvent: {}
+[13.159239] (-) TimerEvent: {}
+[13.260728] (-) TimerEvent: {}
+[13.378786] (-) TimerEvent: {}
+[13.482378] (-) TimerEvent: {}
+[13.584429] (-) TimerEvent: {}
+[13.686337] (-) TimerEvent: {}
+[13.788600] (-) TimerEvent: {}
+[13.890996] (-) TimerEvent: {}
+[13.993966] (-) TimerEvent: {}
+[14.100220] (-) TimerEvent: {}
+[14.202416] (-) TimerEvent: {}
+[14.310139] (-) TimerEvent: {}
+[14.381712] (robo_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.410273] (-) TimerEvent: {}
+[14.515041] (-) TimerEvent: {}
+[14.617597] (-) TimerEvent: {}
+[14.720087] (-) TimerEvent: {}
+[14.824179] (-) TimerEvent: {}
+[14.929373] (-) TimerEvent: {}
+[15.042201] (-) TimerEvent: {}
+[15.144507] (-) TimerEvent: {}
+[15.246174] (-) TimerEvent: {}
+[15.349882] (-) TimerEvent: {}
+[15.451103] (-) TimerEvent: {}
+[15.553021] (-) TimerEvent: {}
+[15.656493] (-) TimerEvent: {}
+[15.766600] (-) TimerEvent: {}
+[15.884907] (-) TimerEvent: {}
+[15.986110] (-) TimerEvent: {}
+[16.090579] (-) TimerEvent: {}
+[16.194313] (-) TimerEvent: {}
+[16.297587] (-) TimerEvent: {}
+[16.399654] (-) TimerEvent: {}
+[16.500807] (-) TimerEvent: {}
+[16.602265] (-) TimerEvent: {}
+[16.704329] (-) TimerEvent: {}
+[16.807818] (-) TimerEvent: {}
+[16.909867] (-) TimerEvent: {}
+[17.012973] (-) TimerEvent: {}
+[17.117204] (-) TimerEvent: {}
+[17.224045] (-) TimerEvent: {}
+[17.326074] (-) TimerEvent: {}
+[17.427865] (-) TimerEvent: {}
+[17.529999] (-) TimerEvent: {}
+[17.631822] (-) TimerEvent: {}
+[17.733993] (-) TimerEvent: {}
+[17.835393] (-) TimerEvent: {}
+[17.937238] (-) TimerEvent: {}
+[18.042543] (-) TimerEvent: {}
+[18.144649] (-) TimerEvent: {}
+[18.246316] (-) TimerEvent: {}
+[18.318231] (robo_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.346517] (-) TimerEvent: {}
+[18.371773] (robo_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[18.447028] (-) TimerEvent: {}
+[18.537225] (robo_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[18.547234] (-) TimerEvent: {}
+[18.648252] (-) TimerEvent: {}
+[18.749501] (-) TimerEvent: {}
+[18.851010] (-) TimerEvent: {}
+[18.952493] (-) TimerEvent: {}
+[19.054354] (-) TimerEvent: {}
+[19.155684] (-) TimerEvent: {}
+[19.215249] (robo_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[19.255808] (-) TimerEvent: {}
+[19.356680] (-) TimerEvent: {}
+[19.457508] (-) TimerEvent: {}
+[19.560315] (-) TimerEvent: {}
+[19.661786] (-) TimerEvent: {}
+[19.765174] (-) TimerEvent: {}
+[19.882656] (-) TimerEvent: {}
+[19.990906] (-) TimerEvent: {}
+[20.101954] (-) TimerEvent: {}
+[20.210195] (-) TimerEvent: {}
+[20.312156] (-) TimerEvent: {}
+[20.414250] (-) TimerEvent: {}
+[20.516604] (-) TimerEvent: {}
+[20.618553] (-) TimerEvent: {}
+[20.691780] (robo_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[20.718765] (-) TimerEvent: {}
+[20.821522] (-) TimerEvent: {}
+[20.923273] (-) TimerEvent: {}
+[21.024967] (-) TimerEvent: {}
+[21.126411] (-) TimerEvent: {}
+[21.227936] (-) TimerEvent: {}
+[21.329450] (-) TimerEvent: {}
+[21.432136] (-) TimerEvent: {}
+[21.536477] (-) TimerEvent: {}
+[21.640152] (-) TimerEvent: {}
+[21.742368] (-) TimerEvent: {}
+[21.844471] (-) TimerEvent: {}
+[21.947043] (-) TimerEvent: {}
+[22.060983] (-) TimerEvent: {}
+[22.163258] (-) TimerEvent: {}
+[22.265831] (-) TimerEvent: {}
+[22.367833] (-) TimerEvent: {}
+[22.469136] (-) TimerEvent: {}
+[22.576401] (-) TimerEvent: {}
+[22.680210] (-) TimerEvent: {}
+[22.784178] (-) TimerEvent: {}
+[22.888975] (-) TimerEvent: {}
+[22.996086] (-) TimerEvent: {}
+[23.099646] (-) TimerEvent: {}
+[23.202316] (-) TimerEvent: {}
+[23.304436] (-) TimerEvent: {}
+[23.416597] (-) TimerEvent: {}
+[23.519115] (-) TimerEvent: {}
+[23.630433] (-) TimerEvent: {}
+[23.740611] (-) TimerEvent: {}
+[23.842030] (-) TimerEvent: {}
+[23.945244] (-) TimerEvent: {}
+[24.052156] (-) TimerEvent: {}
+[24.162540] (-) TimerEvent: {}
+[24.222707] (robo_interfaces) StdoutLine: {'line': b'-- Configuring done (23.8s)\n'}
+[24.262731] (-) TimerEvent: {}
+[24.364544] (-) TimerEvent: {}
+[24.467142] (-) TimerEvent: {}
+[24.568536] (-) TimerEvent: {}
+[24.670222] (-) TimerEvent: {}
+[24.771118] (-) TimerEvent: {}
+[24.872039] (-) TimerEvent: {}
+[24.974517] (-) TimerEvent: {}
+[25.076843] (-) TimerEvent: {}
+[25.179341] (-) TimerEvent: {}
+[25.282497] (-) TimerEvent: {}
+[25.385609] (-) TimerEvent: {}
+[25.487732] (-) TimerEvent: {}
+[25.589752] (-) TimerEvent: {}
+[25.691249] (-) TimerEvent: {}
+[25.799239] (-) TimerEvent: {}
+[25.903430] (-) TimerEvent: {}
+[26.004673] (-) TimerEvent: {}
+[26.111157] (-) TimerEvent: {}
+[26.218097] (-) TimerEvent: {}
+[26.322326] (-) TimerEvent: {}
+[26.423587] (-) TimerEvent: {}
+[26.529957] (-) TimerEvent: {}
+[26.634498] (-) TimerEvent: {}
+[26.738425] (-) TimerEvent: {}
+[26.840286] (-) TimerEvent: {}
+[26.942642] (-) TimerEvent: {}
+[27.048967] (-) TimerEvent: {}
+[27.150711] (-) TimerEvent: {}
+[27.252675] (-) TimerEvent: {}
+[27.356390] (-) TimerEvent: {}
+[27.458556] (-) TimerEvent: {}
+[27.566194] (-) TimerEvent: {}
+[27.669757] (-) TimerEvent: {}
+[27.774570] (-) TimerEvent: {}
+[27.876070] (-) TimerEvent: {}
+[27.977552] (-) TimerEvent: {}
+[28.079713] (-) TimerEvent: {}
+[28.181430] (-) TimerEvent: {}
+[28.282900] (-) TimerEvent: {}
+[28.385186] (-) TimerEvent: {}
+[28.487202] (-) TimerEvent: {}
+[28.589367] (-) TimerEvent: {}
+[28.692436] (-) TimerEvent: {}
+[28.793999] (-) TimerEvent: {}
+[28.898157] (-) TimerEvent: {}
+[28.999909] (-) TimerEvent: {}
+[29.104227] (-) TimerEvent: {}
+[29.206067] (-) TimerEvent: {}
+[29.308846] (-) TimerEvent: {}
+[29.411326] (-) TimerEvent: {}
+[29.513127] (-) TimerEvent: {}
+[29.619722] (-) TimerEvent: {}
+[29.722897] (-) TimerEvent: {}
+[29.838495] (-) TimerEvent: {}
+[29.940651] (-) TimerEvent: {}
+[30.042362] (-) TimerEvent: {}
+[30.144782] (-) TimerEvent: {}
+[30.248124] (-) TimerEvent: {}
+[30.350913] (-) TimerEvent: {}
+[30.453293] (-) TimerEvent: {}
+[30.559038] (-) TimerEvent: {}
+[30.669863] (-) TimerEvent: {}
+[30.771412] (-) TimerEvent: {}
+[30.874717] (-) TimerEvent: {}
+[30.975874] (-) TimerEvent: {}
+[31.077491] (-) TimerEvent: {}
+[31.089467] (robo_interfaces) StdoutLine: {'line': b'-- Generating done (6.4s)\n'}
+[31.177639] (-) TimerEvent: {}
+[31.279279] (-) TimerEvent: {}
+[31.387554] (-) TimerEvent: {}
+[31.488956] (-) TimerEvent: {}
+[31.591863] (-) TimerEvent: {}
+[31.695186] (-) TimerEvent: {}
+[31.800076] (-) TimerEvent: {}
+[31.903028] (-) TimerEvent: {}
+[32.005227] (-) TimerEvent: {}
+[32.108132] (-) TimerEvent: {}
+[32.212403] (-) TimerEvent: {}
+[32.314852] (-) TimerEvent: {}
+[32.423281] (-) TimerEvent: {}
+[32.525105] (-) TimerEvent: {}
+[32.628708] (-) TimerEvent: {}
+[32.735819] (-) TimerEvent: {}
+[32.836999] (-) TimerEvent: {}
+[32.939409] (-) TimerEvent: {}
+[33.042662] (-) TimerEvent: {}
+[33.144841] (-) TimerEvent: {}
+[33.246999] (-) TimerEvent: {}
+[33.348702] (-) TimerEvent: {}
+[33.451980] (-) TimerEvent: {}
+[33.469221] (robo_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/aluno/ros2_ws/build/robo_interfaces\n'}
+[33.483742] (robo_interfaces) CommandEnded: {'returncode': 0}
+[33.495677] (robo_interfaces) JobProgress: {'identifier': 'robo_interfaces', 'progress': 'build'}
+[33.514309] (robo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aluno/ros2_ws/build/robo_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/aluno/ros2_ws/build/robo_interfaces', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aluno', 'OLDPWD': '/home/aluno/ros2_ws/src/robo_explorador/robo_explorador', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aluno/ros2_ws/build/robo_interfaces', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[33.552220] (-) TimerEvent: {}
+[33.656999] (-) TimerEvent: {}
+[33.759373] (-) TimerEvent: {}
+[33.860753] (-) TimerEvent: {}
+[33.968163] (-) TimerEvent: {}
+[34.070705] (-) TimerEvent: {}
+[34.172259] (-) TimerEvent: {}
+[34.273661] (-) TimerEvent: {}
+[34.370709] (robo_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[34.383668] (-) TimerEvent: {}
+[34.438774] (robo_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[34.449499] (robo_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_robo_interfaces\n'}
+[34.483832] (-) TimerEvent: {}
+[34.588002] (-) TimerEvent: {}
+[34.688742] (-) TimerEvent: {}
+[34.791726] (-) TimerEvent: {}
+[34.893521] (-) TimerEvent: {}
+[34.993668] (robo_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[35.004418] (-) TimerEvent: {}
+[35.006352] (robo_interfaces) StdoutLine: {'line': b'creating robo_interfaces.egg-info\n'}
+[35.033567] (robo_interfaces) StdoutLine: {'line': b'writing robo_interfaces.egg-info/PKG-INFO\n'}
+[35.052180] (robo_interfaces) StdoutLine: {'line': b'writing dependency_links to robo_interfaces.egg-info/dependency_links.txt\n'}
+[35.075646] (robo_interfaces) StdoutLine: {'line': b'writing top-level names to robo_interfaces.egg-info/top_level.txt\n'}
+[35.094824] (robo_interfaces) StdoutLine: {'line': b"writing manifest file 'robo_interfaces.egg-info/SOURCES.txt'\n"}
+[35.107187] (-) TimerEvent: {}
+[35.210011] (-) TimerEvent: {}
+[35.245596] (robo_interfaces) StdoutLine: {'line': b"reading manifest file 'robo_interfaces.egg-info/SOURCES.txt'\n"}
+[35.264624] (robo_interfaces) StdoutLine: {'line': b'[  3%] Built target robo_interfaces__rosidl_generator_type_description\n'}
+[35.310147] (-) TimerEvent: {}
+[35.338221] (robo_interfaces) StdoutLine: {'line': b"writing manifest file 'robo_interfaces.egg-info/SOURCES.txt'\n"}
+[35.358716] (robo_interfaces) StdoutLine: {'line': b'[  3%] Built target robo_interfaces__rs\n'}
+[35.392920] (robo_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_robo_interfaces_egg\n'}
+[35.410277] (-) TimerEvent: {}
+[35.508896] (robo_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[35.516060] (-) TimerEvent: {}
+[35.588317] (robo_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[35.616199] (-) TimerEvent: {}
+[35.718235] (-) TimerEvent: {}
+[35.819185] (-) TimerEvent: {}
+[35.921280] (-) TimerEvent: {}
+[36.022755] (-) TimerEvent: {}
+[36.131908] (-) TimerEvent: {}
+[36.237008] (-) TimerEvent: {}
+[36.338178] (-) TimerEvent: {}
+[36.440433] (-) TimerEvent: {}
+[36.549059] (-) TimerEvent: {}
+[36.651702] (-) TimerEvent: {}
+[36.754584] (-) TimerEvent: {}
+[36.858077] (-) TimerEvent: {}
+[36.959518] (-) TimerEvent: {}
+[37.012634] (robo_interfaces) StdoutLine: {'line': b'[  7%] Built target robo_interfaces__cpp\n'}
+[37.059638] (-) TimerEvent: {}
+[37.164351] (-) TimerEvent: {}
+[37.270140] (-) TimerEvent: {}
+[37.371527] (-) TimerEvent: {}
+[37.473265] (-) TimerEvent: {}
+[37.575140] (-) TimerEvent: {}
+[37.677104] (-) TimerEvent: {}
+[37.718419] (robo_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/msg/detail/monitoramento__description.c.o\x1b[0m\n'}
+[37.733803] (robo_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/msg/detail/monitoramento__functions.c.o\x1b[0m\n'}
+[37.760033] (robo_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/msg/detail/monitoramento__type_support.c.o\x1b[0m\n'}
+[37.773477] (robo_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/srv/detail/coleta_material__description.c.o\x1b[0m\n'}
+[37.784153] (-) TimerEvent: {}
+[37.788745] (robo_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/srv/detail/coleta_material__functions.c.o\x1b[0m\n'}
+[37.802339] (robo_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/srv/detail/coleta_material__type_support.c.o\x1b[0m\n'}
+[37.816981] (robo_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/action/detail/deslocamento__description.c.o\x1b[0m\n'}
+[37.826839] (robo_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/action/detail/deslocamento__functions.c.o\x1b[0m\n'}
+[37.840812] (robo_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robo_interfaces/action/detail/deslocamento__type_support.c.o\x1b[0m\n'}
+[37.884338] (-) TimerEvent: {}
+[37.986116] (-) TimerEvent: {}
+[38.087822] (-) TimerEvent: {}
+[38.188962] (-) TimerEvent: {}
+[38.239206] (robo_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library librobo_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[38.289137] (-) TimerEvent: {}
+[38.390643] (-) TimerEvent: {}
+[38.493520] (-) TimerEvent: {}
+[38.596071] (-) TimerEvent: {}
+[38.698613] (-) TimerEvent: {}
+[38.801029] (-) TimerEvent: {}
+[38.905805] (-) TimerEvent: {}
+[39.015831] (-) TimerEvent: {}
+[39.118651] (-) TimerEvent: {}
+[39.219415] (-) TimerEvent: {}
+[39.321257] (-) TimerEvent: {}
+[39.423246] (-) TimerEvent: {}
+[39.454995] (robo_interfaces) StdoutLine: {'line': b'[ 25%] Built target robo_interfaces__rosidl_generator_c\n'}
+[39.523353] (-) TimerEvent: {}
+[39.593063] (robo_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.606855] (robo_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.619875] (robo_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[39.624571] (-) TimerEvent: {}
+[39.626005] (robo_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[39.631390] (robo_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[39.637561] (robo_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[39.724787] (-) TimerEvent: {}
+[39.826477] (-) TimerEvent: {}
+[39.927684] (-) TimerEvent: {}
+[40.028789] (-) TimerEvent: {}
+[40.130059] (-) TimerEvent: {}
+[40.232233] (-) TimerEvent: {}
+[40.335173] (-) TimerEvent: {}
+[40.368605] (robo_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_interfaces/msg/monitoramento__type_support.cpp.o\x1b[0m\n'}
+[40.384105] (robo_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_interfaces/msg/monitoramento__type_support.cpp.o\x1b[0m\n'}
+[40.397668] (robo_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_interfaces/srv/coleta_material__type_support.cpp.o\x1b[0m\n'}
+[40.410808] (robo_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_interfaces/srv/coleta_material__type_support.cpp.o\x1b[0m\n'}
+[40.425485] (robo_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robo_interfaces/action/deslocamento__type_support.cpp.o\x1b[0m\n'}
+[40.441038] (-) TimerEvent: {}
+[40.445766] (robo_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robo_interfaces/action/deslocamento__type_support.cpp.o\x1b[0m\n'}
+[40.541198] (-) TimerEvent: {}
+[40.646750] (-) TimerEvent: {}
+[40.749035] (-) TimerEvent: {}
+[40.851428] (-) TimerEvent: {}
+[40.859053] (robo_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_interfaces/msg/detail/monitoramento__type_support.c.o\x1b[0m\n'}
+[40.881663] (robo_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_interfaces/msg/detail/monitoramento__type_support.cpp.o\x1b[0m\n'}
+[40.897326] (robo_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_interfaces/srv/detail/coleta_material__type_support.cpp.o\x1b[0m\n'}
+[40.904698] (robo_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_interfaces/srv/detail/coleta_material__type_support.c.o\x1b[0m\n'}
+[40.918664] (robo_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robo_interfaces/action/detail/deslocamento__type_support.cpp.o\x1b[0m\n'}
+[40.929440] (robo_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robo_interfaces/action/detail/deslocamento__type_support.c.o\x1b[0m\n'}
+[40.951551] (-) TimerEvent: {}
+[41.053858] (-) TimerEvent: {}
+[41.134447] (robo_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_interfaces/msg/detail/monitoramento__type_support_c.cpp.o\x1b[0m\n'}
+[41.149957] (robo_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_interfaces/srv/detail/coleta_material__type_support_c.cpp.o\x1b[0m\n'}
+[41.158835] (-) TimerEvent: {}
+[41.161766] (robo_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_interfaces/msg/detail/dds_fastrtps/monitoramento__type_support.cpp.o\x1b[0m\n'}
+[41.174170] (robo_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robo_interfaces/action/detail/deslocamento__type_support_c.cpp.o\x1b[0m\n'}
+[41.183294] (robo_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_interfaces/srv/detail/dds_fastrtps/coleta_material__type_support.cpp.o\x1b[0m\n'}
+[41.211750] (robo_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/robo_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robo_interfaces/action/detail/dds_fastrtps/deslocamento__type_support.cpp.o\x1b[0m\n'}
+[41.258972] (-) TimerEvent: {}
+[41.339815] (robo_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librobo_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[41.359127] (-) TimerEvent: {}
+[41.461557] (-) TimerEvent: {}
+[41.563591] (-) TimerEvent: {}
+[41.665187] (-) TimerEvent: {}
+[41.767059] (-) TimerEvent: {}
+[41.868725] (-) TimerEvent: {}
+[41.964086] (robo_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library librobo_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[41.970188] (-) TimerEvent: {}
+[42.025745] (robo_interfaces) StdoutLine: {'line': b'[ 72%] Built target robo_interfaces__rosidl_typesupport_c\n'}
+[42.070334] (-) TimerEvent: {}
+[42.172050] (-) TimerEvent: {}
+[42.274798] (-) TimerEvent: {}
+[42.376892] (-) TimerEvent: {}
+[42.478362] (-) TimerEvent: {}
+[42.579678] (-) TimerEvent: {}
+[42.630739] (robo_interfaces) StdoutLine: {'line': b'[ 72%] Built target robo_interfaces__rosidl_typesupport_introspection_c\n'}
+[42.679845] (-) TimerEvent: {}
+[42.783568] (-) TimerEvent: {}
+[42.884791] (-) TimerEvent: {}
+[42.915325] (robo_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library librobo_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[42.984942] (-) TimerEvent: {}
+[43.086827] (-) TimerEvent: {}
+[43.106783] (robo_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librobo_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[43.186991] (-) TimerEvent: {}
+[43.288577] (-) TimerEvent: {}
+[43.391105] (-) TimerEvent: {}
+[43.492701] (-) TimerEvent: {}
+[43.594532] (-) TimerEvent: {}
+[43.695960] (-) TimerEvent: {}
+[43.777215] (robo_interfaces) StdoutLine: {'line': b'[ 76%] Built target robo_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[43.796344] (-) TimerEvent: {}
+[43.800503] (robo_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library librobo_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[43.896231] (-) TimerEvent: {}
+[43.998905] (-) TimerEvent: {}
+[44.102157] (-) TimerEvent: {}
+[44.203956] (-) TimerEvent: {}
+[44.269427] (robo_interfaces) StdoutLine: {'line': b'[ 78%] Built target robo_interfaces__rosidl_typesupport_cpp\n'}
+[44.304135] (-) TimerEvent: {}
+[44.405496] (-) TimerEvent: {}
+[44.506263] (-) TimerEvent: {}
+[44.608188] (-) TimerEvent: {}
+[44.714620] (-) TimerEvent: {}
+[44.740231] (robo_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library librobo_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[44.814789] (-) TimerEvent: {}
+[44.915627] (-) TimerEvent: {}
+[45.021740] (-) TimerEvent: {}
+[45.123691] (-) TimerEvent: {}
+[45.184180] (robo_interfaces) StdoutLine: {'line': b'[ 80%] Built target robo_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[45.223898] (-) TimerEvent: {}
+[45.325575] (-) TimerEvent: {}
+[45.426587] (-) TimerEvent: {}
+[45.527942] (-) TimerEvent: {}
+[45.629596] (-) TimerEvent: {}
+[45.731045] (-) TimerEvent: {}
+[45.832641] (-) TimerEvent: {}
+[45.934120] (-) TimerEvent: {}
+[46.010854] (robo_interfaces) StdoutLine: {'line': b'[ 80%] Built target robo_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[46.034256] (-) TimerEvent: {}
+[46.064178] (robo_interfaces) StdoutLine: {'line': b'[ 80%] Built target robo_interfaces\n'}
+[46.134389] (-) TimerEvent: {}
+[46.138688] (robo_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[46.234513] (-) TimerEvent: {}
+[46.336449] (-) TimerEvent: {}
+[46.438801] (-) TimerEvent: {}
+[46.540950] (-) TimerEvent: {}
+[46.646859] (-) TimerEvent: {}
+[46.749127] (-) TimerEvent: {}
+[46.852481] (-) TimerEvent: {}
+[46.955114] (-) TimerEvent: {}
+[47.056785] (-) TimerEvent: {}
+[47.159248] (-) TimerEvent: {}
+[47.261673] (-) TimerEvent: {}
+[47.363260] (-) TimerEvent: {}
+[47.459336] (robo_interfaces) StdoutLine: {'line': b'[ 81%] Built target robo_interfaces__py\n'}
+[47.464052] (-) TimerEvent: {}
+[47.565467] (-) TimerEvent: {}
+[47.667368] (-) TimerEvent: {}
+[47.706287] (robo_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robo_interfaces/msg/_monitoramento_s.c.o\x1b[0m\n'}
+[47.727503] (robo_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robo_interfaces/srv/_coleta_material_s.c.o\x1b[0m\n'}
+[47.743750] (robo_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robo_interfaces/action/_deslocamento_s.c.o\x1b[0m\n'}
+[47.767487] (-) TimerEvent: {}
+[47.868740] (-) TimerEvent: {}
+[47.970827] (-) TimerEvent: {}
+[48.072077] (-) TimerEvent: {}
+[48.173569] (-) TimerEvent: {}
+[48.275188] (-) TimerEvent: {}
+[48.377647] (-) TimerEvent: {}
+[48.484151] (-) TimerEvent: {}
+[48.581042] (robo_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library librobo_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[48.586849] (-) TimerEvent: {}
+[48.688622] (-) TimerEvent: {}
+[48.791385] (-) TimerEvent: {}
+[48.893686] (-) TimerEvent: {}
+[48.997399] (-) TimerEvent: {}
+[49.099116] (-) TimerEvent: {}
+[49.101434] (robo_interfaces) StdoutLine: {'line': b'[ 89%] Built target robo_interfaces__rosidl_generator_py\n'}
+[49.199173] (-) TimerEvent: {}
+[49.202649] (robo_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[49.209129] (robo_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[49.216487] (robo_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/robo_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[49.299294] (-) TimerEvent: {}
+[49.404180] (-) TimerEvent: {}
+[49.508511] (-) TimerEvent: {}
+[49.610474] (-) TimerEvent: {}
+[49.712454] (-) TimerEvent: {}
+[49.815321] (-) TimerEvent: {}
+[49.916412] (-) TimerEvent: {}
+[50.018064] (-) TimerEvent: {}
+[50.120080] (-) TimerEvent: {}
+[50.149450] (robo_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robo_interfaces/robo_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[50.220245] (-) TimerEvent: {}
+[50.296801] (robo_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robo_interfaces/robo_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[50.320414] (-) TimerEvent: {}
+[50.399406] (robo_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/robo_interfaces/robo_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[50.420524] (-) TimerEvent: {}
+[50.522378] (-) TimerEvent: {}
+[50.651622] (-) TimerEvent: {}
+[50.755141] (-) TimerEvent: {}
+[50.839022] (robo_interfaces) StdoutLine: {'line': b'[100%] Built target robo_interfaces_s__rosidl_typesupport_c\n'}
+[50.865713] (-) TimerEvent: {}
+[50.906388] (robo_interfaces) StdoutLine: {'line': b'[100%] Built target robo_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[50.934256] (robo_interfaces) StdoutLine: {'line': b'[100%] Built target robo_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[50.965889] (-) TimerEvent: {}
+[51.067039] (-) TimerEvent: {}
+[51.175709] (-) TimerEvent: {}
+[51.278024] (-) TimerEvent: {}
+[51.380208] (-) TimerEvent: {}
+[51.481924] (-) TimerEvent: {}
+[51.583430] (-) TimerEvent: {}
+[51.637324] (robo_interfaces) CommandEnded: {'returncode': 0}
+[51.654255] (robo_interfaces) JobProgress: {'identifier': 'robo_interfaces', 'progress': 'install'}
+[51.667979] (robo_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aluno/ros2_ws/build/robo_interfaces'], 'cwd': '/home/aluno/ros2_ws/build/robo_interfaces', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aluno', 'OLDPWD': '/home/aluno/ros2_ws/src/robo_explorador/robo_explorador', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aluno/ros2_ws/build/robo_interfaces', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[51.681215] (robo_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.683965] (-) TimerEvent: {}
+[51.788140] (-) TimerEvent: {}
+[51.802234] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/ament_index/resource_index/rosidl_interfaces/robo_interfaces\n'}
+[51.888273] (-) TimerEvent: {}
+[51.989717] (-) TimerEvent: {}
+[52.054656] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/msg/Monitoramento.json\n'}
+[52.089945] (-) TimerEvent: {}
+[52.193365] (-) TimerEvent: {}
+[52.295603] (-) TimerEvent: {}
+[52.397891] (-) TimerEvent: {}
+[52.425428] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/srv/ColetaMaterial.json\n'}
+[52.498066] (-) TimerEvent: {}
+[52.603254] (-) TimerEvent: {}
+[52.711739] (-) TimerEvent: {}
+[52.817878] (-) TimerEvent: {}
+[52.913686] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/action/Deslocamento.json\n'}
+[52.919605] (-) TimerEvent: {}
+[53.030013] (-) TimerEvent: {}
+[53.139604] (-) TimerEvent: {}
+[53.175699] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[53.236301] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[53.242001] (-) TimerEvent: {}
+[53.343627] (-) TimerEvent: {}
+[53.445802] (-) TimerEvent: {}
+[53.449507] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/deslocamento.h\n'}
+[53.546003] (-) TimerEvent: {}
+[53.654320] (-) TimerEvent: {}
+[53.727495] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[53.754477] (-) TimerEvent: {}
+[53.856416] (-) TimerEvent: {}
+[53.955706] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__description.c\n'}
+[53.962663] (-) TimerEvent: {}
+[54.065858] (-) TimerEvent: {}
+[54.173241] (-) TimerEvent: {}
+[54.282408] (-) TimerEvent: {}
+[54.385626] (-) TimerEvent: {}
+[54.407921] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__functions.c\n'}
+[54.485842] (-) TimerEvent: {}
+[54.593868] (-) TimerEvent: {}
+[54.714951] (-) TimerEvent: {}
+[54.817219] (-) TimerEvent: {}
+[54.869935] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__functions.h\n'}
+[54.917409] (-) TimerEvent: {}
+[55.025073] (-) TimerEvent: {}
+[55.126574] (-) TimerEvent: {}
+[55.228572] (-) TimerEvent: {}
+[55.239392] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__struct.h\n'}
+[55.328763] (-) TimerEvent: {}
+[55.429885] (-) TimerEvent: {}
+[55.519851] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__type_support.c\n'}
+[55.530005] (-) TimerEvent: {}
+[55.631440] (-) TimerEvent: {}
+[55.735564] (-) TimerEvent: {}
+[55.804134] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__type_support.h\n'}
+[55.835702] (-) TimerEvent: {}
+[55.937477] (-) TimerEvent: {}
+[56.040004] (-) TimerEvent: {}
+[56.148190] (-) TimerEvent: {}
+[56.204030] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[56.248352] (-) TimerEvent: {}
+[56.285193] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[56.348516] (-) TimerEvent: {}
+[56.358026] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__description.c\n'}
+[56.448698] (-) TimerEvent: {}
+[56.551428] (-) TimerEvent: {}
+[56.653086] (-) TimerEvent: {}
+[56.756614] (-) TimerEvent: {}
+[56.857325] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__functions.c\n'}
+[56.864114] (-) TimerEvent: {}
+[56.966155] (-) TimerEvent: {}
+[57.067792] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__functions.h\n'}
+[57.073883] (-) TimerEvent: {}
+[57.176412] (-) TimerEvent: {}
+[57.242224] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__struct.h\n'}
+[57.276578] (-) TimerEvent: {}
+[57.378071] (-) TimerEvent: {}
+[57.479985] (-) TimerEvent: {}
+[57.541923] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__type_support.c\n'}
+[57.580149] (-) TimerEvent: {}
+[57.681873] (-) TimerEvent: {}
+[57.784245] (-) TimerEvent: {}
+[57.867566] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__type_support.h\n'}
+[57.884450] (-) TimerEvent: {}
+[57.986134] (-) TimerEvent: {}
+[58.088266] (-) TimerEvent: {}
+[58.165856] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/monitoramento.h\n'}
+[58.188414] (-) TimerEvent: {}
+[58.302141] (-) TimerEvent: {}
+[58.403904] (-) TimerEvent: {}
+[58.472260] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[58.504075] (-) TimerEvent: {}
+[58.606341] (-) TimerEvent: {}
+[58.707163] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[58.711382] (-) TimerEvent: {}
+[58.792321] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/coleta_material.h\n'}
+[58.811540] (-) TimerEvent: {}
+[58.913375] (-) TimerEvent: {}
+[58.963359] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[59.013520] (-) TimerEvent: {}
+[59.113654] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__description.c\n'}
+[59.120718] (-) TimerEvent: {}
+[59.222266] (-) TimerEvent: {}
+[59.324191] (-) TimerEvent: {}
+[59.426230] (-) TimerEvent: {}
+[59.435999] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__functions.c\n'}
+[59.526397] (-) TimerEvent: {}
+[59.628919] (-) TimerEvent: {}
+[59.683627] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__functions.h\n'}
+[59.729210] (-) TimerEvent: {}
+[59.852681] (-) TimerEvent: {}
+[59.954059] (-) TimerEvent: {}
+[60.061310] (-) TimerEvent: {}
+[60.169372] (-) TimerEvent: {}
+[60.207393] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__struct.h\n'}
+[60.269717] (-) TimerEvent: {}
+[60.374205] (-) TimerEvent: {}
+[60.478324] (-) TimerEvent: {}
+[60.580988] (-) TimerEvent: {}
+[60.609406] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__type_support.c\n'}
+[60.681120] (-) TimerEvent: {}
+[60.710045] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__type_support.h\n'}
+[60.781284] (-) TimerEvent: {}
+[60.885500] (-) TimerEvent: {}
+[60.989202] (-) TimerEvent: {}
+[61.094485] (-) TimerEvent: {}
+[61.203890] (-) TimerEvent: {}
+[61.237450] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/library_path.sh\n'}
+[61.304076] (-) TimerEvent: {}
+[61.406253] (-) TimerEvent: {}
+[61.511351] (-) TimerEvent: {}
+[61.609509] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/library_path.dsv\n'}
+[61.627206] (-) TimerEvent: {}
+[61.740815] (-) TimerEvent: {}
+[61.842550] (-) TimerEvent: {}
+[61.871462] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_generator_c.so\n'}
+[61.942707] (-) TimerEvent: {}
+[62.045047] (-) TimerEvent: {}
+[62.154500] (-) TimerEvent: {}
+[62.169810] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_generator_c.so" to ""\n'}
+[62.252239] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[62.257361] (-) TimerEvent: {}
+[62.358919] (-) TimerEvent: {}
+[62.419658] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[62.459237] (-) TimerEvent: {}
+[62.511695] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[62.559422] (-) TimerEvent: {}
+[62.623357] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__rosidl_typesupport_fastrtps_c.h\n'}
+[62.659534] (-) TimerEvent: {}
+[62.761580] (-) TimerEvent: {}
+[62.866122] (-) TimerEvent: {}
+[62.973817] (-) TimerEvent: {}
+[63.075689] (-) TimerEvent: {}
+[63.123195] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[63.175862] (-) TimerEvent: {}
+[63.201966] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[63.276036] (-) TimerEvent: {}
+[63.277623] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__rosidl_typesupport_fastrtps_c.h\n'}
+[63.376204] (-) TimerEvent: {}
+[63.478027] (-) TimerEvent: {}
+[63.563771] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[63.578268] (-) TimerEvent: {}
+[63.679639] (-) TimerEvent: {}
+[63.782465] (-) TimerEvent: {}
+[63.795147] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[63.880054] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[63.892807] (-) TimerEvent: {}
+[64.016708] (-) TimerEvent: {}
+[64.037328] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__rosidl_typesupport_fastrtps_c.h\n'}
+[64.117054] (-) TimerEvent: {}
+[64.223939] (-) TimerEvent: {}
+[64.329603] (-) TimerEvent: {}
+[64.431267] (-) TimerEvent: {}
+[64.503519] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[64.531405] (-) TimerEvent: {}
+[64.604423] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[64.631559] (-) TimerEvent: {}
+[64.699947] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[64.731745] (-) TimerEvent: {}
+[64.838578] (-) TimerEvent: {}
+[64.875514] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[64.938757] (-) TimerEvent: {}
+[65.042105] (-) TimerEvent: {}
+[65.052712] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[65.142339] (-) TimerEvent: {}
+[65.244637] (-) TimerEvent: {}
+[65.257138] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__rosidl_typesupport_introspection_c.h\n'}
+[65.344786] (-) TimerEvent: {}
+[65.445867] (-) TimerEvent: {}
+[65.479306] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__type_support.c\n'}
+[65.546079] (-) TimerEvent: {}
+[65.656252] (-) TimerEvent: {}
+[65.767264] (-) TimerEvent: {}
+[65.870222] (-) TimerEvent: {}
+[65.971601] (-) TimerEvent: {}
+[66.030246] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[66.071817] (-) TimerEvent: {}
+[66.118592] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[66.151086] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__rosidl_typesupport_introspection_c.h\n'}
+[66.171955] (-) TimerEvent: {}
+[66.285831] (-) TimerEvent: {}
+[66.393191] (-) TimerEvent: {}
+[66.494738] (-) TimerEvent: {}
+[66.602142] (-) TimerEvent: {}
+[66.704389] (-) TimerEvent: {}
+[66.711009] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__type_support.c\n'}
+[66.804707] (-) TimerEvent: {}
+[66.907274] (-) TimerEvent: {}
+[67.010892] (-) TimerEvent: {}
+[67.115780] (-) TimerEvent: {}
+[67.219179] (-) TimerEvent: {}
+[67.321538] (-) TimerEvent: {}
+[67.323915] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[67.421735] (-) TimerEvent: {}
+[67.523352] (-) TimerEvent: {}
+[67.525147] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[67.601988] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[67.623511] (-) TimerEvent: {}
+[67.680748] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__rosidl_typesupport_introspection_c.h\n'}
+[67.723689] (-) TimerEvent: {}
+[67.836557] (-) TimerEvent: {}
+[67.938828] (-) TimerEvent: {}
+[67.970860] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__type_support.c\n'}
+[68.039172] (-) TimerEvent: {}
+[68.141169] (-) TimerEvent: {}
+[68.213658] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[68.241400] (-) TimerEvent: {}
+[68.351188] (-) TimerEvent: {}
+[68.455645] (-) TimerEvent: {}
+[68.557697] (-) TimerEvent: {}
+[68.583972] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[68.630810] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_c.so\n'}
+[68.657913] (-) TimerEvent: {}
+[68.775317] (-) TimerEvent: {}
+[68.883856] (-) TimerEvent: {}
+[68.986719] (-) TimerEvent: {}
+[69.089129] (-) TimerEvent: {}
+[69.117157] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[69.152030] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[69.189310] (-) TimerEvent: {}
+[69.207405] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[69.237823] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/deslocamento.hpp\n'}
+[69.289656] (-) TimerEvent: {}
+[69.395033] (-) TimerEvent: {}
+[69.504058] (-) TimerEvent: {}
+[69.607255] (-) TimerEvent: {}
+[69.709367] (-) TimerEvent: {}
+[69.746554] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[69.809553] (-) TimerEvent: {}
+[69.917451] (-) TimerEvent: {}
+[69.949600] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__builder.hpp\n'}
+[70.017686] (-) TimerEvent: {}
+[70.125397] (-) TimerEvent: {}
+[70.226881] (-) TimerEvent: {}
+[70.335818] (-) TimerEvent: {}
+[70.423465] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__struct.hpp\n'}
+[70.435908] (-) TimerEvent: {}
+[70.537223] (-) TimerEvent: {}
+[70.565839] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__traits.hpp\n'}
+[70.637404] (-) TimerEvent: {}
+[70.739004] (-) TimerEvent: {}
+[70.840437] (-) TimerEvent: {}
+[70.902171] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__type_support.hpp\n'}
+[70.940552] (-) TimerEvent: {}
+[70.974864] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[70.998648] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[71.023288] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__builder.hpp\n'}
+[71.040649] (-) TimerEvent: {}
+[71.141819] (-) TimerEvent: {}
+[71.249448] (-) TimerEvent: {}
+[71.353052] (-) TimerEvent: {}
+[71.428466] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__struct.hpp\n'}
+[71.453211] (-) TimerEvent: {}
+[71.556803] (-) TimerEvent: {}
+[71.658493] (-) TimerEvent: {}
+[71.762511] (-) TimerEvent: {}
+[71.864846] (-) TimerEvent: {}
+[71.890857] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__traits.hpp\n'}
+[71.965190] (-) TimerEvent: {}
+[72.067481] (-) TimerEvent: {}
+[72.168832] (-) TimerEvent: {}
+[72.194147] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__type_support.hpp\n'}
+[72.269019] (-) TimerEvent: {}
+[72.370648] (-) TimerEvent: {}
+[72.445192] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/monitoramento.hpp\n'}
+[72.470833] (-) TimerEvent: {}
+[72.583353] (-) TimerEvent: {}
+[72.686146] (-) TimerEvent: {}
+[72.797212] (-) TimerEvent: {}
+[72.884059] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[72.897352] (-) TimerEvent: {}
+[73.003204] (-) TimerEvent: {}
+[73.105132] (-) TimerEvent: {}
+[73.210662] (-) TimerEvent: {}
+[73.231017] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[73.304488] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/coleta_material.hpp\n'}
+[73.310817] (-) TimerEvent: {}
+[73.412395] (-) TimerEvent: {}
+[73.523729] (-) TimerEvent: {}
+[73.627804] (-) TimerEvent: {}
+[73.732942] (-) TimerEvent: {}
+[73.787594] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[73.833106] (-) TimerEvent: {}
+[73.937281] (-) TimerEvent: {}
+[73.947145] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__builder.hpp\n'}
+[74.037425] (-) TimerEvent: {}
+[74.138919] (-) TimerEvent: {}
+[74.243191] (-) TimerEvent: {}
+[74.320115] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__struct.hpp\n'}
+[74.343290] (-) TimerEvent: {}
+[74.451126] (-) TimerEvent: {}
+[74.556399] (-) TimerEvent: {}
+[74.574884] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__traits.hpp\n'}
+[74.656634] (-) TimerEvent: {}
+[74.759437] (-) TimerEvent: {}
+[74.859536] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__type_support.hpp\n'}
+[74.866494] (-) TimerEvent: {}
+[74.968259] (-) TimerEvent: {}
+[75.070318] (-) TimerEvent: {}
+[75.166586] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[75.176752] (-) TimerEvent: {}
+[75.283047] (-) TimerEvent: {}
+[75.299951] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[75.383211] (-) TimerEvent: {}
+[75.406298] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[75.468636] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/dds_fastrtps\n'}
+[75.483351] (-) TimerEvent: {}
+[75.565239] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[75.583528] (-) TimerEvent: {}
+[75.694151] (-) TimerEvent: {}
+[75.799152] (-) TimerEvent: {}
+[75.902082] (-) TimerEvent: {}
+[76.006027] (-) TimerEvent: {}
+[76.083122] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[76.106175] (-) TimerEvent: {}
+[76.207517] (-) TimerEvent: {}
+[76.212439] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[76.307764] (-) TimerEvent: {}
+[76.415401] (-) TimerEvent: {}
+[76.430592] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/dds_fastrtps\n'}
+[76.515602] (-) TimerEvent: {}
+[76.617522] (-) TimerEvent: {}
+[76.681795] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[76.717707] (-) TimerEvent: {}
+[76.827863] (-) TimerEvent: {}
+[76.930413] (-) TimerEvent: {}
+[77.040998] (-) TimerEvent: {}
+[77.061728] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[77.141187] (-) TimerEvent: {}
+[77.243006] (-) TimerEvent: {}
+[77.339006] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[77.344432] (-) TimerEvent: {}
+[77.400473] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[77.444568] (-) TimerEvent: {}
+[77.472661] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[77.544702] (-) TimerEvent: {}
+[77.646431] (-) TimerEvent: {}
+[77.739057] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/dds_fastrtps\n'}
+[77.746521] (-) TimerEvent: {}
+[77.847780] (-) TimerEvent: {}
+[77.873675] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[77.947954] (-) TimerEvent: {}
+[78.049074] (-) TimerEvent: {}
+[78.153145] (-) TimerEvent: {}
+[78.256356] (-) TimerEvent: {}
+[78.348970] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[78.356898] (-) TimerEvent: {}
+[78.377077] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces\n'}
+[78.437803] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action\n'}
+[78.456931] (-) TimerEvent: {}
+[78.462896] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail\n'}
+[78.527666] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__rosidl_typesupport_introspection_cpp.hpp\n'}
+[78.557154] (-) TimerEvent: {}
+[78.659680] (-) TimerEvent: {}
+[78.761871] (-) TimerEvent: {}
+[78.863939] (-) TimerEvent: {}
+[78.966399] (-) TimerEvent: {}
+[79.069320] (-) TimerEvent: {}
+[79.164360] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/action/detail/deslocamento__type_support.cpp\n'}
+[79.172372] (-) TimerEvent: {}
+[79.274025] (-) TimerEvent: {}
+[79.378778] (-) TimerEvent: {}
+[79.482276] (-) TimerEvent: {}
+[79.493234] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg\n'}
+[79.575735] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail\n'}
+[79.582542] (-) TimerEvent: {}
+[79.651302] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__rosidl_typesupport_introspection_cpp.hpp\n'}
+[79.682735] (-) TimerEvent: {}
+[79.784436] (-) TimerEvent: {}
+[79.868817] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/msg/detail/monitoramento__type_support.cpp\n'}
+[79.884602] (-) TimerEvent: {}
+[79.986524] (-) TimerEvent: {}
+[80.072965] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv\n'}
+[80.099497] (-) TimerEvent: {}
+[80.210041] (-) TimerEvent: {}
+[80.294612] (robo_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail\n'}
+[80.310179] (-) TimerEvent: {}
+[80.411978] (-) TimerEvent: {}
+[80.466740] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__rosidl_typesupport_introspection_cpp.hpp\n'}
+[80.512180] (-) TimerEvent: {}
+[80.623552] (-) TimerEvent: {}
+[80.726455] (-) TimerEvent: {}
+[80.793260] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/include/robo_interfaces/robo_interfaces/srv/detail/coleta_material__type_support.cpp\n'}
+[80.826555] (-) TimerEvent: {}
+[80.927705] (-) TimerEvent: {}
+[81.002274] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[81.028053] (-) TimerEvent: {}
+[81.130261] (-) TimerEvent: {}
+[81.246704] (-) TimerEvent: {}
+[81.351850] (-) TimerEvent: {}
+[81.453759] (-) TimerEvent: {}
+[81.498969] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[81.554109] (-) TimerEvent: {}
+[81.602669] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_cpp.so\n'}
+[81.654441] (-) TimerEvent: {}
+[81.757444] (-) TimerEvent: {}
+[81.859254] (-) TimerEvent: {}
+[81.888529] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[81.959396] (-) TimerEvent: {}
+[82.030748] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/pythonpath.sh\n'}
+[82.059594] (-) TimerEvent: {}
+[82.164275] (-) TimerEvent: {}
+[82.270111] (-) TimerEvent: {}
+[82.337785] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/pythonpath.dsv\n'}
+[82.370217] (-) TimerEvent: {}
+[82.471800] (-) TimerEvent: {}
+[82.574688] (-) TimerEvent: {}
+[82.623052] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces-0.0.0-py3.12.egg-info\n'}
+[82.674875] (-) TimerEvent: {}
+[82.741816] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[82.775036] (-) TimerEvent: {}
+[82.877743] (-) TimerEvent: {}
+[82.955264] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[82.977987] (-) TimerEvent: {}
+[83.079684] (-) TimerEvent: {}
+[83.183007] (-) TimerEvent: {}
+[83.280528] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[83.286307] (-) TimerEvent: {}
+[83.388023] (-) TimerEvent: {}
+[83.469046] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[83.488176] (-) TimerEvent: {}
+[83.590084] (-) TimerEvent: {}
+[83.694614] (-) TimerEvent: {}
+[83.802364] (-) TimerEvent: {}
+[83.873079] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces\n'}
+[83.902494] (-) TimerEvent: {}
+[83.959582] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action\n'}
+[84.002695] (-) TimerEvent: {}
+[84.104794] (-) TimerEvent: {}
+[84.207899] (-) TimerEvent: {}
+[84.246432] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action/_deslocamento.py\n'}
+[84.308119] (-) TimerEvent: {}
+[84.410165] (-) TimerEvent: {}
+[84.441981] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action/_deslocamento_s.c\n'}
+[84.510349] (-) TimerEvent: {}
+[84.613366] (-) TimerEvent: {}
+[84.688277] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action/__init__.py\n'}
+[84.713630] (-) TimerEvent: {}
+[84.825154] (-) TimerEvent: {}
+[84.927024] (-) TimerEvent: {}
+[85.028624] (-) TimerEvent: {}
+[85.132183] (-) TimerEvent: {}
+[85.182778] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg\n'}
+[85.232397] (-) TimerEvent: {}
+[85.273222] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg/_monitoramento.py\n'}
+[85.332667] (-) TimerEvent: {}
+[85.437900] (-) TimerEvent: {}
+[85.496158] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg/_monitoramento_s.c\n'}
+[85.538034] (-) TimerEvent: {}
+[85.639496] (-) TimerEvent: {}
+[85.648070] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg/__init__.py\n'}
+[85.739649] (-) TimerEvent: {}
+[85.815528] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_c.so\n'}
+[85.839777] (-) TimerEvent: {}
+[85.941201] (-) TimerEvent: {}
+[85.967253] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[86.041338] (-) TimerEvent: {}
+[86.139458] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[86.143366] (-) TimerEvent: {}
+[86.244587] (-) TimerEvent: {}
+[86.276737] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv\n'}
+[86.344823] (-) TimerEvent: {}
+[86.348719] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv/_coleta_material.py\n'}
+[86.445006] (-) TimerEvent: {}
+[86.546638] (-) TimerEvent: {}
+[86.581169] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv/_coleta_material_s.c\n'}
+[86.646963] (-) TimerEvent: {}
+[86.749736] (-) TimerEvent: {}
+[86.806700] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv/__init__.py\n'}
+[86.849945] (-) TimerEvent: {}
+[86.951577] (-) TimerEvent: {}
+[86.999868] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[87.051826] (-) TimerEvent: {}
+[87.156702] (-) TimerEvent: {}
+[87.260099] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[87.265360] (-) TimerEvent: {}
+[87.370073] (-) TimerEvent: {}
+[87.471166] (-) TimerEvent: {}
+[87.472729] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/_robo_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[87.571371] (-) TimerEvent: {}
+[87.673922] (-) TimerEvent: {}
+[87.696854] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/__init__.py\n'}
+[87.774123] (-) TimerEvent: {}
+[87.876289] (-) TimerEvent: {}
+[87.978009] (-) TimerEvent: {}
+[88.079532] (-) TimerEvent: {}
+[88.183545] (-) TimerEvent: {}
+[88.288767] (-) TimerEvent: {}
+[88.391882] (-) TimerEvent: {}
+[88.493278] (-) TimerEvent: {}
+[88.596313] (-) TimerEvent: {}
+[88.700547] (-) TimerEvent: {}
+[88.805643] (-) TimerEvent: {}
+[88.907145] (-) TimerEvent: {}
+[89.008852] (-) TimerEvent: {}
+[89.110996] (-) TimerEvent: {}
+[89.212749] (-) TimerEvent: {}
+[89.314339] (-) TimerEvent: {}
+[89.416237] (-) TimerEvent: {}
+[89.520586] (-) TimerEvent: {}
+[89.624253] (-) TimerEvent: {}
+[89.729240] (-) TimerEvent: {}
+[89.772578] (robo_interfaces) StdoutLine: {'line': b"Listing '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces'...\n"}
+[89.776943] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/__init__.py'...\n"}
+[89.787524] (robo_interfaces) StdoutLine: {'line': b"Listing '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action'...\n"}
+[89.806273] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action/__init__.py'...\n"}
+[89.812403] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/action/_deslocamento.py'...\n"}
+[89.818046] (robo_interfaces) StdoutLine: {'line': b"Listing '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg'...\n"}
+[89.822988] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg/__init__.py'...\n"}
+[89.837905] (-) TimerEvent: {}
+[89.839672] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/msg/_monitoramento.py'...\n"}
+[89.846170] (robo_interfaces) StdoutLine: {'line': b"Listing '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv'...\n"}
+[89.851027] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv/__init__.py'...\n"}
+[89.862412] (robo_interfaces) StdoutLine: {'line': b"Compiling '/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/srv/_coleta_material.py'...\n"}
+[89.938090] (-) TimerEvent: {}
+[89.966853] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[90.038284] (-) TimerEvent: {}
+[90.140205] (-) TimerEvent: {}
+[90.243255] (-) TimerEvent: {}
+[90.345475] (-) TimerEvent: {}
+[90.382619] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[90.445614] (-) TimerEvent: {}
+[90.547239] (-) TimerEvent: {}
+[90.601466] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[90.647598] (-) TimerEvent: {}
+[90.751548] (-) TimerEvent: {}
+[90.855334] (-) TimerEvent: {}
+[90.960239] (-) TimerEvent: {}
+[91.061447] (-) TimerEvent: {}
+[91.127190] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[91.161652] (-) TimerEvent: {}
+[91.263350] (-) TimerEvent: {}
+[91.297362] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_c.so\n'}
+[91.363524] (-) TimerEvent: {}
+[91.464757] (-) TimerEvent: {}
+[91.566432] (-) TimerEvent: {}
+[91.673889] (-) TimerEvent: {}
+[91.726913] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages/robo_interfaces/robo_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[91.774042] (-) TimerEvent: {}
+[91.780111] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_generator_py.so\n'}
+[91.874184] (-) TimerEvent: {}
+[91.975934] (-) TimerEvent: {}
+[92.073506] (robo_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aluno/ros2_ws/install/robo_interfaces/lib/librobo_interfaces__rosidl_generator_py.so" to ""\n'}
+[92.083842] (-) TimerEvent: {}
+[92.185506] (-) TimerEvent: {}
+[92.189797] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/ament_index/resource_index/rust_packages/robo_interfaces\n'}
+[92.285741] (-) TimerEvent: {}
+[92.388140] (-) TimerEvent: {}
+[92.487858] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust\n'}
+[92.494277] (-) TimerEvent: {}
+[92.595913] (-) TimerEvent: {}
+[92.685214] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/build.rs\n'}
+[92.696112] (-) TimerEvent: {}
+[92.803797] (-) TimerEvent: {}
+[92.908581] (-) TimerEvent: {}
+[93.012478] (-) TimerEvent: {}
+[93.068346] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/Cargo.toml\n'}
+[93.112656] (-) TimerEvent: {}
+[93.213823] (-) TimerEvent: {}
+[93.239786] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src\n'}
+[93.314034] (-) TimerEvent: {}
+[93.342616] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/action\n'}
+[93.414224] (-) TimerEvent: {}
+[93.449882] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/action/rmw.rs\n'}
+[93.514410] (-) TimerEvent: {}
+[93.616781] (-) TimerEvent: {}
+[93.721665] (-) TimerEvent: {}
+[93.826221] (-) TimerEvent: {}
+[93.837357] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/action.rs\n'}
+[93.926417] (-) TimerEvent: {}
+[93.969533] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/lib.rs\n'}
+[94.026612] (-) TimerEvent: {}
+[94.132386] (-) TimerEvent: {}
+[94.241520] (-) TimerEvent: {}
+[94.330653] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/msg\n'}
+[94.341640] (-) TimerEvent: {}
+[94.443185] (-) TimerEvent: {}
+[94.473338] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/msg/rmw.rs\n'}
+[94.543370] (-) TimerEvent: {}
+[94.644957] (-) TimerEvent: {}
+[94.747506] (-) TimerEvent: {}
+[94.771515] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/msg.rs\n'}
+[94.847712] (-) TimerEvent: {}
+[94.949215] (-) TimerEvent: {}
+[94.950560] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/srv\n'}
+[95.049407] (-) TimerEvent: {}
+[95.058372] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/srv/rmw.rs\n'}
+[95.149748] (-) TimerEvent: {}
+[95.262164] (-) TimerEvent: {}
+[95.364604] (-) TimerEvent: {}
+[95.468351] (-) TimerEvent: {}
+[95.472632] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/rust/src/srv.rs\n'}
+[95.568558] (-) TimerEvent: {}
+[95.641914] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/msg/Monitoramento.idl\n'}
+[95.668659] (-) TimerEvent: {}
+[95.702925] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/srv/ColetaMaterial.idl\n'}
+[95.768837] (-) TimerEvent: {}
+[95.873296] (-) TimerEvent: {}
+[95.978801] (-) TimerEvent: {}
+[95.997495] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/action/Deslocamento.idl\n'}
+[96.078947] (-) TimerEvent: {}
+[96.182983] (-) TimerEvent: {}
+[96.250824] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/msg/Monitoramento.msg\n'}
+[96.283202] (-) TimerEvent: {}
+[96.386554] (-) TimerEvent: {}
+[96.479998] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/srv/ColetaMaterial.srv\n'}
+[96.486666] (-) TimerEvent: {}
+[96.587720] (-) TimerEvent: {}
+[96.689981] (-) TimerEvent: {}
+[96.762113] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/action/Deslocamento.action\n'}
+[96.790244] (-) TimerEvent: {}
+[96.896407] (-) TimerEvent: {}
+[97.003563] (-) TimerEvent: {}
+[97.106457] (-) TimerEvent: {}
+[97.185331] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/ament_index/resource_index/package_run_dependencies/robo_interfaces\n'}
+[97.206624] (-) TimerEvent: {}
+[97.309589] (-) TimerEvent: {}
+[97.411856] (-) TimerEvent: {}
+[97.513223] (-) TimerEvent: {}
+[97.584053] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/ament_index/resource_index/parent_prefix_path/robo_interfaces\n'}
+[97.613378] (-) TimerEvent: {}
+[97.715198] (-) TimerEvent: {}
+[97.794959] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/ament_prefix_path.sh\n'}
+[97.815333] (-) TimerEvent: {}
+[97.916813] (-) TimerEvent: {}
+[98.021286] (-) TimerEvent: {}
+[98.042332] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/ament_prefix_path.dsv\n'}
+[98.121608] (-) TimerEvent: {}
+[98.226563] (-) TimerEvent: {}
+[98.329624] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/path.sh\n'}
+[98.335154] (-) TimerEvent: {}
+[98.436451] (-) TimerEvent: {}
+[98.518578] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/environment/path.dsv\n'}
+[98.536646] (-) TimerEvent: {}
+[98.638477] (-) TimerEvent: {}
+[98.674652] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/local_setup.bash\n'}
+[98.738627] (-) TimerEvent: {}
+[98.840177] (-) TimerEvent: {}
+[98.876899] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/local_setup.sh\n'}
+[98.940380] (-) TimerEvent: {}
+[99.043161] (-) TimerEvent: {}
+[99.145781] (-) TimerEvent: {}
+[99.221041] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/local_setup.zsh\n'}
+[99.245923] (-) TimerEvent: {}
+[99.348221] (-) TimerEvent: {}
+[99.408912] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/local_setup.dsv\n'}
+[99.448401] (-) TimerEvent: {}
+[99.550504] (-) TimerEvent: {}
+[99.616596] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/package.dsv\n'}
+[99.650631] (-) TimerEvent: {}
+[99.761361] (-) TimerEvent: {}
+[99.844305] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/ament_index/resource_index/packages/robo_interfaces\n'}
+[99.861471] (-) TimerEvent: {}
+[99.963216] (-) TimerEvent: {}
+[100.064280] (-) TimerEvent: {}
+[100.167799] (-) TimerEvent: {}
+[100.277557] (-) TimerEvent: {}
+[100.287267] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_generator_cExport.cmake\n'}
+[100.377735] (-) TimerEvent: {}
+[100.478980] (-) TimerEvent: {}
+[100.578778] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[100.587299] (-) TimerEvent: {}
+[100.691763] (-) TimerEvent: {}
+[100.797312] (-) TimerEvent: {}
+[100.899596] (-) TimerEvent: {}
+[101.000937] (-) TimerEvent: {}
+[101.100324] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[101.109809] (-) TimerEvent: {}
+[101.212065] (-) TimerEvent: {}
+[101.304017] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[101.314255] (-) TimerEvent: {}
+[101.387726] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[101.414369] (-) TimerEvent: {}
+[101.515170] (-) TimerEvent: {}
+[101.543516] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[101.615422] (-) TimerEvent: {}
+[101.686805] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[101.715632] (-) TimerEvent: {}
+[101.817476] (-) TimerEvent: {}
+[101.919423] (-) TimerEvent: {}
+[101.923167] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[102.019644] (-) TimerEvent: {}
+[102.121788] (-) TimerEvent: {}
+[102.152248] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_generator_cppExport.cmake\n'}
+[102.221977] (-) TimerEvent: {}
+[102.331514] (-) TimerEvent: {}
+[102.435786] (-) TimerEvent: {}
+[102.468576] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[102.536010] (-) TimerEvent: {}
+[102.642090] (-) TimerEvent: {}
+[102.746033] (-) TimerEvent: {}
+[102.804413] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[102.846254] (-) TimerEvent: {}
+[102.966792] (-) TimerEvent: {}
+[103.047470] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[103.066946] (-) TimerEvent: {}
+[103.168382] (-) TimerEvent: {}
+[103.218075] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[103.268520] (-) TimerEvent: {}
+[103.370010] (-) TimerEvent: {}
+[103.452383] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[103.470138] (-) TimerEvent: {}
+[103.571778] (-) TimerEvent: {}
+[103.673832] (-) TimerEvent: {}
+[103.695970] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[103.774035] (-) TimerEvent: {}
+[103.881170] (-) TimerEvent: {}
+[103.962368] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_generator_pyExport.cmake\n'}
+[103.981290] (-) TimerEvent: {}
+[104.082516] (-) TimerEvent: {}
+[104.186729] (-) TimerEvent: {}
+[104.269962] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/export_robo_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[104.286910] (-) TimerEvent: {}
+[104.390893] (-) TimerEvent: {}
+[104.498191] (-) TimerEvent: {}
+[104.599468] (-) TimerEvent: {}
+[104.703258] (-) TimerEvent: {}
+[104.740797] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[104.803567] (-) TimerEvent: {}
+[104.894621] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[104.903674] (-) TimerEvent: {}
+[104.996430] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[105.003788] (-) TimerEvent: {}
+[105.105088] (-) TimerEvent: {}
+[105.197297] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[105.205251] (-) TimerEvent: {}
+[105.306361] (-) TimerEvent: {}
+[105.314249] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[105.406538] (-) TimerEvent: {}
+[105.506347] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[105.511044] (-) TimerEvent: {}
+[105.612114] (-) TimerEvent: {}
+[105.661183] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[105.712270] (-) TimerEvent: {}
+[105.795605] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[105.829683] (-) TimerEvent: {}
+[105.936016] (-) TimerEvent: {}
+[106.045272] (-) TimerEvent: {}
+[106.156131] (-) TimerEvent: {}
+[106.241791] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfacesConfig.cmake\n'}
+[106.256429] (-) TimerEvent: {}
+[106.358722] (-) TimerEvent: {}
+[106.463468] (-) TimerEvent: {}
+[106.516292] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/cmake/robo_interfacesConfig-version.cmake\n'}
+[106.563646] (-) TimerEvent: {}
+[106.681975] (-) TimerEvent: {}
+[106.779178] (robo_interfaces) StdoutLine: {'line': b'-- Installing: /home/aluno/ros2_ws/install/robo_interfaces/share/robo_interfaces/package.xml\n'}
+[106.782824] (-) TimerEvent: {}
+[106.883835] (-) TimerEvent: {}
+[106.989580] (-) TimerEvent: {}
+[107.027937] (robo_interfaces) CommandEnded: {'returncode': 0}
+[107.089702] (-) TimerEvent: {}
+[107.191226] (-) TimerEvent: {}
+[107.292882] (-) TimerEvent: {}
+[107.394701] (-) TimerEvent: {}
+[107.496623] (-) TimerEvent: {}
+[107.598514] (-) TimerEvent: {}
+[107.700293] (-) TimerEvent: {}
+[107.802259] (-) TimerEvent: {}
+[107.904834] (-) TimerEvent: {}
+[108.007118] (-) TimerEvent: {}
+[108.108617] (-) TimerEvent: {}
+[108.210658] (-) TimerEvent: {}
+[108.312944] (-) TimerEvent: {}
+[108.426316] (-) TimerEvent: {}
+[108.529021] (-) TimerEvent: {}
+[108.630808] (-) TimerEvent: {}
+[108.732394] (-) TimerEvent: {}
+[108.833508] (-) TimerEvent: {}
+[108.936868] (-) TimerEvent: {}
+[109.038627] (-) TimerEvent: {}
+[109.140360] (-) TimerEvent: {}
+[109.242066] (-) TimerEvent: {}
+[109.343917] (-) TimerEvent: {}
+[109.446417] (-) TimerEvent: {}
+[109.547813] (-) TimerEvent: {}
+[109.649133] (-) TimerEvent: {}
+[109.754720] (-) TimerEvent: {}
+[109.855584] (-) TimerEvent: {}
+[109.957550] (-) TimerEvent: {}
+[110.061999] (-) TimerEvent: {}
+[110.163896] (-) TimerEvent: {}
+[110.265877] (-) TimerEvent: {}
+[110.369668] (-) TimerEvent: {}
+[110.471690] (-) TimerEvent: {}
+[110.573225] (-) TimerEvent: {}
+[110.620934] (robo_interfaces) JobEnded: {'identifier': 'robo_interfaces', 'rc': 0}
+[110.639447] (robo_explorador) JobStarted: {'identifier': 'robo_explorador'}
+[110.673519] (-) TimerEvent: {}
+[110.775694] (-) TimerEvent: {}
+[110.878295] (-) TimerEvent: {}
+[110.982655] (-) TimerEvent: {}
+[111.085979] (-) TimerEvent: {}
+[111.187406] (-) TimerEvent: {}
+[111.290811] (-) TimerEvent: {}
+[111.393585] (-) TimerEvent: {}
+[111.499520] (-) TimerEvent: {}
+[111.613641] (-) TimerEvent: {}
+[111.715185] (-) TimerEvent: {}
+[111.817133] (-) TimerEvent: {}
+[111.918432] (-) TimerEvent: {}
+[112.020136] (-) TimerEvent: {}
+[112.122061] (-) TimerEvent: {}
+[112.224326] (-) TimerEvent: {}
+[112.325921] (-) TimerEvent: {}
+[112.427718] (-) TimerEvent: {}
+[112.538719] (-) TimerEvent: {}
+[112.644914] (-) TimerEvent: {}
+[112.751252] (-) TimerEvent: {}
+[112.853502] (-) TimerEvent: {}
+[112.955638] (-) TimerEvent: {}
+[113.058832] (-) TimerEvent: {}
+[113.160611] (-) TimerEvent: {}
+[113.262389] (-) TimerEvent: {}
+[113.365550] (-) TimerEvent: {}
+[113.467974] (-) TimerEvent: {}
+[113.570037] (-) TimerEvent: {}
+[113.674208] (-) TimerEvent: {}
+[113.775651] (-) TimerEvent: {}
+[113.876931] (-) TimerEvent: {}
+[113.978385] (-) TimerEvent: {}
+[114.080426] (-) TimerEvent: {}
+[114.182282] (-) TimerEvent: {}
+[114.284148] (-) TimerEvent: {}
+[114.385059] (-) TimerEvent: {}
+[114.486848] (-) TimerEvent: {}
+[114.587977] (-) TimerEvent: {}
+[114.689393] (-) TimerEvent: {}
+[114.790275] (-) TimerEvent: {}
+[114.891149] (-) TimerEvent: {}
+[114.992308] (-) TimerEvent: {}
+[115.095319] (-) TimerEvent: {}
+[115.151922] (robo_explorador) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robo_explorador', 'build', '--build-base', '/home/aluno/ros2_ws/build/robo_explorador/build', 'install', '--record', '/home/aluno/ros2_ws/build/robo_explorador/install.log', '--install-scripts', '$base/lib/robo_explorador', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aluno/ros2_ws/src/robo_explorador', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/aluno/ros2_ws/install/robo_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aluno', 'OLDPWD': '/home/aluno/ros2_ws/src/robo_explorador/robo_explorador', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/aluno/ros2_ws/install/robo_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aluno/ros2_ws/build/robo_explorador', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/aluno/ros2_ws/build/robo_explorador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages:/home/aluno/ros2_ws/install/robo_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/aluno/ros2_ws/install/robo_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[115.239317] (-) TimerEvent: {}
+[115.343138] (-) TimerEvent: {}
+[115.445463] (-) TimerEvent: {}
+[115.547659] (-) TimerEvent: {}
+[115.649617] (-) TimerEvent: {}
+[115.750413] (-) TimerEvent: {}
+[115.851279] (-) TimerEvent: {}
+[115.952258] (-) TimerEvent: {}
+[116.053973] (-) TimerEvent: {}
+[116.155121] (-) TimerEvent: {}
+[116.256160] (-) TimerEvent: {}
+[116.303311] (robo_explorador) StdoutLine: {'line': b'running egg_info\n'}
+[116.307538] (robo_explorador) StdoutLine: {'line': b'creating ../../build/robo_explorador/robo_explorador.egg-info\n'}
+[116.356326] (-) TimerEvent: {}
+[116.438516] (robo_explorador) StdoutLine: {'line': b'writing ../../build/robo_explorador/robo_explorador.egg-info/PKG-INFO\n'}
+[116.456496] (-) TimerEvent: {}
+[116.553583] (robo_explorador) StdoutLine: {'line': b'writing dependency_links to ../../build/robo_explorador/robo_explorador.egg-info/dependency_links.txt\n'}
+[116.559312] (-) TimerEvent: {}
+[116.567387] (robo_explorador) StdoutLine: {'line': b'writing entry points to ../../build/robo_explorador/robo_explorador.egg-info/entry_points.txt\n'}
+[116.582329] (robo_explorador) StdoutLine: {'line': b'writing requirements to ../../build/robo_explorador/robo_explorador.egg-info/requires.txt\n'}
+[116.604343] (robo_explorador) StdoutLine: {'line': b'writing top-level names to ../../build/robo_explorador/robo_explorador.egg-info/top_level.txt\n'}
+[116.651251] (robo_explorador) StdoutLine: {'line': b"writing manifest file '../../build/robo_explorador/robo_explorador.egg-info/SOURCES.txt'\n"}
+[116.659448] (-) TimerEvent: {}
+[116.760524] (-) TimerEvent: {}
+[116.848373] (robo_explorador) StdoutLine: {'line': b"reading manifest file '../../build/robo_explorador/robo_explorador.egg-info/SOURCES.txt'\n"}
+[116.860675] (-) TimerEvent: {}
+[116.961992] (-) TimerEvent: {}
+[117.005520] (robo_explorador) StdoutLine: {'line': b"writing manifest file '../../build/robo_explorador/robo_explorador.egg-info/SOURCES.txt'\n"}
+[117.015256] (robo_explorador) StdoutLine: {'line': b'running build\n'}
+[117.020232] (robo_explorador) StdoutLine: {'line': b'running build_py\n'}
+[117.030547] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/build/robo_explorador/build\n'}
+[117.035223] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/build/robo_explorador/build/lib\n'}
+[117.041072] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.062147] (-) TimerEvent: {}
+[117.065048] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_coleta_cliente.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.135281] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_coleta_servidor.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.162285] (-) TimerEvent: {}
+[117.181917] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_deslocamento_cancelar.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.226432] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_deslocamento_cliente.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.262479] (-) TimerEvent: {}
+[117.291308] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_deslocamento_servidor.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.362660] (-) TimerEvent: {}
+[117.378314] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_topico_publish.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.433048] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/robo_topico_subscriber.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.462835] (-) TimerEvent: {}
+[117.504918] (robo_explorador) StdoutLine: {'line': b'copying robo_explorador/__init__.py -> /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador\n'}
+[117.550896] (robo_explorador) StdoutLine: {'line': b'running install\n'}
+[117.563021] (-) TimerEvent: {}
+[117.574081] (robo_explorador) StdoutLine: {'line': b'running install_lib\n'}
+[117.663185] (-) TimerEvent: {}
+[117.668965] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[117.703298] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_coleta_cliente.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[117.763360] (-) TimerEvent: {}
+[117.796242] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_coleta_servidor.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[117.863517] (-) TimerEvent: {}
+[117.872659] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_deslocamento_cancelar.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[117.957751] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_deslocamento_cliente.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[117.964894] (-) TimerEvent: {}
+[118.036394] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_deslocamento_servidor.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[118.065026] (-) TimerEvent: {}
+[118.105954] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_topico_publish.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[118.165212] (-) TimerEvent: {}
+[118.173598] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/robo_topico_subscriber.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[118.256835] (robo_explorador) StdoutLine: {'line': b'copying /home/aluno/ros2_ws/build/robo_explorador/build/lib/robo_explorador/__init__.py -> /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador\n'}
+[118.266953] (-) TimerEvent: {}
+[118.360272] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_coleta_cliente.py to robo_coleta_cliente.cpython-312.pyc\n'}
+[118.367028] (-) TimerEvent: {}
+[118.468976] (-) TimerEvent: {}
+[118.477061] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_coleta_servidor.py to robo_coleta_servidor.cpython-312.pyc\n'}
+[118.569157] (-) TimerEvent: {}
+[118.571392] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_deslocamento_cancelar.py to robo_deslocamento_cancelar.cpython-312.pyc\n'}
+[118.649186] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_deslocamento_cliente.py to robo_deslocamento_cliente.cpython-312.pyc\n'}
+[118.669271] (-) TimerEvent: {}
+[118.734293] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_deslocamento_servidor.py to robo_deslocamento_servidor.cpython-312.pyc\n'}
+[118.769387] (-) TimerEvent: {}
+[118.814610] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_topico_publish.py to robo_topico_publish.cpython-312.pyc\n'}
+[118.869535] (-) TimerEvent: {}
+[118.886512] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/robo_topico_subscriber.py to robo_topico_subscriber.cpython-312.pyc\n'}
+[118.956498] (robo_explorador) StdoutLine: {'line': b'byte-compiling /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador/__init__.py to __init__.cpython-312.pyc\n'}
+[118.969690] (-) TimerEvent: {}
+[119.024355] (robo_explorador) StdoutLine: {'line': b'running install_data\n'}
+[119.043208] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/install/robo_explorador/share/ament_index\n'}
+[119.048330] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/install/robo_explorador/share/ament_index/resource_index\n'}
+[119.053893] (robo_explorador) StdoutLine: {'line': b'creating /home/aluno/ros2_ws/install/robo_explorador/share/ament_index/resource_index/packages\n'}
+[119.069847] (-) TimerEvent: {}
+[119.071926] (robo_explorador) StdoutLine: {'line': b'copying resource/robo_explorador -> /home/aluno/ros2_ws/install/robo_explorador/share/ament_index/resource_index/packages\n'}
+[119.109913] (robo_explorador) StdoutLine: {'line': b'copying package.xml -> /home/aluno/ros2_ws/install/robo_explorador/share/robo_explorador\n'}
+[119.139808] (robo_explorador) StdoutLine: {'line': b'running install_egg_info\n'}
+[119.170103] (-) TimerEvent: {}
+[119.242632] (robo_explorador) StdoutLine: {'line': b'Copying ../../build/robo_explorador/robo_explorador.egg-info to /home/aluno/ros2_ws/install/robo_explorador/lib/python3.12/site-packages/robo_explorador-0.0.0-py3.12.egg-info\n'}
+[119.270268] (-) TimerEvent: {}
+[119.371863] (-) TimerEvent: {}
+[119.480337] (-) TimerEvent: {}
+[119.597068] (-) TimerEvent: {}
+[119.699340] (-) TimerEvent: {}
+[119.801388] (-) TimerEvent: {}
+[119.903692] (-) TimerEvent: {}
+[120.005873] (-) TimerEvent: {}
+[120.121718] (-) TimerEvent: {}
+[120.222468] (-) TimerEvent: {}
+[120.324964] (-) TimerEvent: {}
+[120.363691] (robo_explorador) StdoutLine: {'line': b'running install_scripts\n'}
+[120.425167] (-) TimerEvent: {}
+[120.534253] (-) TimerEvent: {}
+[120.644372] (-) TimerEvent: {}
+[120.745496] (-) TimerEvent: {}
+[120.846455] (-) TimerEvent: {}
+[120.923151] (robo_explorador) StdoutLine: {'line': b'Installing robo_coleta_cliente script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[120.946593] (-) TimerEvent: {}
+[120.984886] (robo_explorador) StdoutLine: {'line': b'Installing robo_coleta_servidor script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.039304] (robo_explorador) StdoutLine: {'line': b'Installing robo_deslocamento_cancelar script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.046733] (-) TimerEvent: {}
+[121.070197] (robo_explorador) StdoutLine: {'line': b'Installing robo_deslocamento_cliente script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.096109] (robo_explorador) StdoutLine: {'line': b'Installing robo_deslocamento_servidor script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.125693] (robo_explorador) StdoutLine: {'line': b'Installing robo_topico_publish script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.146871] (-) TimerEvent: {}
+[121.150691] (robo_explorador) StdoutLine: {'line': b'Installing robo_topico_subscriber script to /home/aluno/ros2_ws/install/robo_explorador/lib/robo_explorador\n'}
+[121.179103] (robo_explorador) StdoutLine: {'line': b"writing list of installed files to '/home/aluno/ros2_ws/build/robo_explorador/install.log'\n"}
+[121.235225] (robo_explorador) CommandEnded: {'returncode': 0}
+[121.247031] (-) TimerEvent: {}
+[121.350605] (-) TimerEvent: {}
+[121.459742] (-) TimerEvent: {}
+[121.561359] (-) TimerEvent: {}
+[121.665700] (-) TimerEvent: {}
+[121.766857] (-) TimerEvent: {}
+[121.857193] (robo_explorador) JobEnded: {'identifier': 'robo_explorador', 'rc': 0}
+[121.865325] (-) EventReactorShutdown: {}
