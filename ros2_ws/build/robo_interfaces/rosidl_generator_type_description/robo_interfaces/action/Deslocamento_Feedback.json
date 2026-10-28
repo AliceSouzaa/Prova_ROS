@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robo_interfaces/action/Deslocamento_Feedback",
+      "fields": [
+        {
+          "name": "latitude_atual",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "longitude_atual",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robo_interfaces/action/Deslocamento_Feedback",
+      "hash_string": "RIHS01_59ce43074f94f002bbd6a433b01001d434b5aeb05a05be0390f11876ddf0c68d"
+    }
+  ]
+}

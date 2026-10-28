@@ -1,0 +1,6 @@
+action/Deslocamento.action
+action/Deslocamento.idl
+msg/Monitoramento.idl
+msg/Monitoramento.msg
+srv/ColetaMaterial.idl
+srv/ColetaMaterial.srv

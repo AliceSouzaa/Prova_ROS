@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robo_interfaces/action/Deslocamento.action
+// generated code does not contain a copyright notice
+
+
+module robo_interfaces {
+  module action {
+    struct Deslocamento_Goal {
+      double latitude;
+
+      double longitude;
+
+      double velocidade_latitudinal;
+
+      double velocidade_longitudinal;
+    };
+    struct Deslocamento_Result {
+      boolean sucesso;
+
+      double distancia_percorrida;
+    };
+    struct Deslocamento_Feedback {
+      double latitude_atual;
+
+      double longitude_atual;
+    };
+  };
+};

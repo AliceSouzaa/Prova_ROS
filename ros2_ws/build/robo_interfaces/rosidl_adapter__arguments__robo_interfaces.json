@@ -1,0 +1,8 @@
+{
+  "package_name": "robo_interfaces",
+  "non_idl_tuples": [
+    "/home/aluno/ros2_ws/src/robo_interfaces:msg/Monitoramento.msg",
+    "/home/aluno/ros2_ws/src/robo_interfaces:srv/ColetaMaterial.srv",
+    "/home/aluno/ros2_ws/src/robo_interfaces:action/Deslocamento.action"
+  ]
+}

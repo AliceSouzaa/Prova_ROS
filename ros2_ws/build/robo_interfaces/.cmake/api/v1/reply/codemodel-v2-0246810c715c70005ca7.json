@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4079b3d9130e5bbd7e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "robo_interfaces__py",
+					"jsonFile" : "directory-robo_interfaces__py-0e7c0b4e0956a3362378.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aluno/ros2_ws/build/robo_interfaces/robo_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "robo_interfaces__rs",
+					"jsonFile" : "directory-robo_interfaces__rs-2b3d694fa82348b5ce8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aluno/ros2_ws/build/robo_interfaces/robo_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "robo_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robo_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robo_interfaces_egg-e6b9189acdc168084ba2.json",
+					"name" : "ament_cmake_python_build_robo_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robo_interfaces-c5a4c57122809b5819b5.json",
+					"name" : "ament_cmake_python_copy_robo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces-dad344dca25ade6d335a.json",
+					"name" : "robo_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__cpp-877a9c0287e581f19a53.json",
+					"name" : "robo_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robo_interfaces__py::@ae9c3718d47b4caff6d1",
+					"jsonFile" : "target-robo_interfaces__py-4c440f5a87787ccaca83.json",
+					"name" : "robo_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_generator_c-43ba57959862f15ce923.json",
+					"name" : "robo_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_generator_py-d28c51edc839c6e11220.json",
+					"name" : "robo_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_generator_type_description-e8e60af42ce5ead6d4ad.json",
+					"name" : "robo_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_c-957a1961dc358da6b041.json",
+					"name" : "robo_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_cpp-6998770ba6306de38988.json",
+					"name" : "robo_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_fastrtps_c-c21bfa10e4d27a2ddddd.json",
+					"name" : "robo_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_fastrtps_cpp-ba5684d12e7dd6ee9b39.json",
+					"name" : "robo_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_introspection_c-f5ce41ec89df5c9e14be.json",
+					"name" : "robo_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces__rosidl_typesupport_introspection_cpp-a2d589e0e59bce50481c.json",
+					"name" : "robo_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "robo_interfaces__rs::@d5ad8af78af12af04a52",
+					"jsonFile" : "target-robo_interfaces__rs-110b1a0c358ff30cd4aa.json",
+					"name" : "robo_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces_s__rosidl_typesupport_c-731bc9853f906add3da8.json",
+					"name" : "robo_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces_s__rosidl_typesupport_fastrtps_c-7e505c26cb8fb6b11372.json",
+					"name" : "robo_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces_s__rosidl_typesupport_introspection_c-3137b17d80bec7d23eb9.json",
+					"name" : "robo_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robo_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robo_interfaces_uninstall-db2e2a46bef0c7b5f562.json",
+					"name" : "robo_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-42043bf1158ae2ce56a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aluno/ros2_ws/build/robo_interfaces",
+		"source" : "/home/aluno/ros2_ws/src/robo_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

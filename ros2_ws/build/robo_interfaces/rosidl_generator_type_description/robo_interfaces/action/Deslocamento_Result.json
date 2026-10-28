@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robo_interfaces/action/Deslocamento_Result",
+      "fields": [
+        {
+          "name": "sucesso",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "distancia_percorrida",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robo_interfaces/action/Deslocamento_Result",
+      "hash_string": "RIHS01_6a3c21950e9ab7a3ad91c2d09e8e5507f9b58f620ec4eb821428c3fb8ce282bd"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[console_scripts]
+robo_coleta_cliente = robo_explorador.robo_coleta_cliente:main
+robo_coleta_servidor = robo_explorador.robo_coleta_servidor:main
+robo_deslocamento_cancelar = robo_explorador.robo_deslocamento_cancelar:main
+robo_deslocamento_cliente = robo_explorador.robo_deslocamento_cliente:main
+robo_deslocamento_servidor = robo_explorador.robo_deslocamento_servidor:main
+robo_topico_publish = robo_explorador.robo_topico_publish:main
+robo_topico_subscriber = robo_explorador.robo_topico_subscriber:main
